@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif, courier;}
-p.h7{font-family:"courier"}
+.custom{font-family:"Apple Chancery"}
 body, html {
     height: 100%;
     color: #777;
@@ -59,6 +59,30 @@ img {
     background-image: url("images/lake.jpg");
     min-height: 400px;
 }
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: white;
+  color: black;
+  /* border: 2px solid #4CAF50; */
+}
+
+.button1:hover {
+  background-color: black;
+  color: white;
+}
 
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
@@ -97,28 +121,39 @@ img {
 </div>
 
 <!-- First Parallax Image with Logo Text -->
-<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+<div class="bgimg-1 w3-display-container w3-opacity-off" id="home">
   <div id="container">
     <div id="main_image"></div>
-    <img src="images/gupta1.jpg" class = "center" align = "middle">
+    <img src="images/gupta1.jpg" class = "w3-padding-small center" align = "middle">
 </div>
 
   <div class="text w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity" >ANAY <span class="w3-hide-small">GUPTA</span>
+    <span class="w3-center w3-padding w3-black w3-xlarge w3-wide w3-animate-opacity" >ANAY <span class="w3-hide-small">GUPTA</span>
 
   </div>
 </div>
 
 <!-- Container (About Section) -->
-<div class="w3-content w3-container w3-padding-64" id="about">
-  <h3 class="w3-center">HELLO!</h3>
+<div class="w3-display-container w3-padding-large" id="about">
+  <h3 class="w3-center">
+    <font size="8" face="Gill Sans" color="black">
+      HELLO!
+  </h3>
+    </font>
+  <p>
+    <font size="5" face="Gill Sans" color="black">
+      I am a sophomore studying Computer Science at Barrett, The Honors College, at Arizona State University.
+      I am passionate about addressing cross-disciplinary local, national and international issues through computing.
+   </font>
+  </p>
 
-  <!--      <p class="w3-center"><em>Aspiring data scientist</em></p>      -->
+  <h3 class="w3-center">
+    <font size="5" face="Gill Sans" color="black">
+      <br/>
+      Click on any of the following buttons to learn more about me!
+  </h3>
 
-  <p>I am a sophomore studying Computer Science at Barrett, The Honors College, at Arizona State University.
-     I am passionate about addressing cross-disciplinary local, national and international issues through computing.
-</p>
-  <div class="w3-row">
+  <div class="w3-row w3-center w3-padding-16">
     <!--
     <div class="w3-col m6 w3-center w3-padding-large">
       <p><b><i class="fa fa-user w3-margin-right"></i>Anay Gupta (2018)</b></p><br>
@@ -127,47 +162,66 @@ img {
     -->
 
     <!-- Hide this text on small devices -->
-    <div class="w3-col m6 w3-hide-small w3-padding-large">
+    <!-- <div class="w3-col m6 w3-hide-small w3-padding-large"> -->
       <!--<p>I am a soft-computing oriented student looking to enhance skills including machine learning, data mining, and computer vision towards momentous real-world applications.</p>-->
-    </div>
-  </div>
-  <p class="w3-large w3-left-align">Proficient Languages:</p>
-  <p class="w3-wide"><i class="fa fa-laptop"></i>Java</p>
+    <!-- </div> -->
+  <!-- </div> -->
+  <p <button class="button button1 w3-round-large w3-xlarge w3-quarter w3-section">Proficient Languages</button></p>
+  <p <button class="button button1 w3-round-large w3-xlarge w3-quarter w3-section">ML Concepts</button></p>
+  <p <button class="button button1 w3-round-large w3-xlarge w3-quarter w3-section">Technologies</button></p>
+  <p <button class="button button1 w3-round-large w3-xlarge w3-quarter w3-section">Hardware</button></p>
+
+  <!-- <p class="w3-wide"><i class="fa fa-laptop"></i>Java</p> -->
+
   <!-- <div class="w3-light-grey w3-left">
     <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
   </div> -->
-  <p class="w3-wide"><i class="fa fa-laptop"></i>Python</p>
+
+  <!-- <p class="w3-wide"><i class="fa fa-laptop"></i>Python</p> -->
+
   <!-- <div class="w3-light-grey">
     <div class="w3-container w3-padding-small w3-dark-grey w3-left" style="width:80%">80%</div>
   </div> -->
-  <p class="w3-wide"><i class="fa fa-laptop"></i>SQL</p>
+
+  <!-- <p class="w3-wide"><i class="fa fa-laptop"></i>SQL</p> -->
+
   <!-- <div class="w3-light-grey">
     <div class="w3-container w3-padding-small w3-dark-grey w3-left" style="width:80%">80%</div>
   </div> -->
-  <p class="w3-wide"><i class="fa fa-laptop"></i>MATLAB</p>
+
+  <!-- <p class="w3-wide"><i class="fa fa-laptop"></i>MATLAB</p> -->
+
   <!-- <div class="w3-light-grey">
     <div class="w3-container w3-padding-small w3-dark-grey w3-left" style="width:70%">70%</div>
   </div> -->
-  <p class="w3-wide"><i class="fa fa-laptop"></i>C/C++/C#</p>
+
+  <!-- <p class="w3-wide"><i class="fa fa-laptop"></i>C/C++/C#</p> -->
+
   <!-- <div class="w3-light-grey">
     <div class="w3-container w3-padding-small w3-dark-grey w3-left" style="width:70%">70%</div>
   </div> -->
-  <p class="w3-wide"><i class="fa fa-laptop"></i>HTML</p>
+
+  <!-- <p class="w3-wide"><i class="fa fa-laptop"></i>HTML</p> -->
+
   <!-- <div class="w3-light-grey">
     <div class="w3-container w3-padding-small w3-dark-grey w3-left" style="width:70%">70%</div>
   </div> -->
-  <p class="w3-wide"><i class="fa fa-laptop"></i>R</p>
+
+  <!-- <p class="w3-wide"><i class="fa fa-laptop"></i>R</p> -->
+
   <!-- <div class="w3-light-grey">
     <div class="w3-container w3-padding-small w3-dark-grey w3-left" style="width:60%">60%</div>
   </div> -->
-  <p class="w3-wide"><i class="fa fa-laptop"></i>RobotC</p>
+
+  <!-- <p class="w3-wide"><i class="fa fa-laptop"></i>RobotC</p> -->
+
   <!-- <div class="w3-light-grey">
     <div class="w3-container w3-padding-small w3-dark-grey w3-left" style="width:100%">100%</div>
   </div> -->
 
 </div>
 
-<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+<!-- <div class="w3-row w3-center w3-dark-grey w3-padding-16">
   <div class="w3-quarter w3-section">
     <span class="w3-xlarge">10</span><br>
     Languages
@@ -184,10 +238,10 @@ img {
     <span class="w3-xlarge">6</span><br>
     Hardware
   </div>
-</div>
+</div> -->
 
 <!-- Second Parallax Image with Portfolio Text -->
-<div class="bgimg-2 w3-display-container w3-opacity-min">
+<div class="bgimg-2 w3-display-container w3-opacity-off">
   <div class="w3-display-middle">
     <span class="w3-xxlarge w3-text-white w3-wide">PROJECTS</span>
   </div>
@@ -199,21 +253,81 @@ img {
   <p class="w3-center"><em>Click on the seals for more information</em></p><br>
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-  <div class="w3-row-padding w3-center">
-    <div class="w3-col m3">
-      <img src="asu.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Darknet and Deepnet Mining for Proactive Cybersecurity Threat Intelligence">
+  <div class="w3-row">
+    <div class="w3-col s2 m2 l2">
+      <img src="images/dt.png" style="width:100%" onclick="document.getElementById('id01').style.display='block'" class="w3-hover-opacity">
+
+      <div id="id01" class="w3-modal">
+        <div class="w3-modal-content w3-animate-top w3-card-4">
+          <header class="w3-container w3-black">
+            <span onclick="document.getElementById('id01').style.display='none'"
+            class="w3-button w3-display-topright">&times;</span>
+            <h2>Achieve 60</h2>
+          </header>
+          <div class="w3-container">
+            <p>Developing a 7-screen dashboard model to enable Arizona Board of Regents to raise the average Arizona educational attainment to 60%.</p>
+            <!-- <p>Some text..</p> -->
+          </div>
+          <footer class="w3-container w3-black">
+            <p>ASU Decision Theater Network</p>
+          </footer>
+        </div>
+      </div>
+
     </div>
 
-    <div class="w3-col m3">
-      <img src="pitt.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Developing Heuristics to Automate the Extraction of Potential Drug-Drug Interaction (PDDI) Evidence from the Tables of Structured Product Labels (SPLs)">
+    <div class="w3-col m2">
+      <img src="images/dt.png" style="width:100%" onclick="document.getElementById('id02').style.display='block'" class="w3-hover-opacity" >
+      <!-- <img src="images/asu.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Darknet and Deepnet Mining for Proactive Cybersecurity Threat Intelligence"> -->
+
+      <div id="id02" class="w3-modal">
+        <div class="w3-modal-content w3-animate-top w3-card-4">
+          <header class="w3-container w3-black">
+            <span onclick="document.getElementById('id02').style.display='none'"
+            class="w3-button w3-display-topright">&times;</span>
+            <h2>Conservation International</h2>
+          </header>
+          <div class="w3-container">
+            <p>Developing a 7-screen dashboard model to enable Arizona Board of Regents to raise the average Arizona educational attainment to 60%.</p>
+            <!-- <p>Some text..</p> -->
+          </div>
+          <footer class="w3-container w3-black">
+            <p>ASU Decision Theater Network</p>
+          </footer>
+        </div>
+      </div>
+
     </div>
-    <div class="w3-col m3">
-      <img src="kinect.png" style="width:95%" onclick="onClick(this)" class="w3-hover-opacity" alt="A 3D Vision and Machine Learning Integrated Robotic Solution to Medication Non-Adherence for the Elderly">
+
+    <div class="w3-col m2">
+      <img src="images/asu.png" style="width:100%" onclick="document.getElementById('id03').style.display='block'" class="w3-hover-opacity">
+      <!-- alt="Developing Heuristics to Automate the Extraction of Potential Drug-Drug Interaction (PDDI) Evidence from the Tables of Structured Product Labels (SPLs)"> -->
+
+      <div id="id03" class="w3-modal">
+        <div class="w3-modal-content w3-animate-top w3-card-4">
+          <header class="w3-container w3-black">
+            <span onclick="document.getElementById('id03').style.display='none'"
+            class="w3-button w3-display-topright">&times;</span>
+            <h2>Darknet and Deepnet Mining for Proactive Cybersecurity <br/>Threat Intelligence</h2>
+          </header>
+          <div class="w3-container">
+            <p>Developing a 7-screen dashboard model to enable Arizona Board of Regents to raise the average Arizona educational attainment to 60%.</p>
+            <!-- <p>Some text..</p> -->
+          </div>
+          <footer class="w3-container w3-black">
+            <p>ASU Decision Theater Network</p>
+          </footer>
+        </div>
+      </div>
+
     </div>
-    <div class="w3-col m3">
-      <img src="android.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="gpsTXT: A Location-based Automated Messenger Application">
+    <div class="w3-col m2">
+      <img src="images/kinect.png" style="width:95%" onclick="onClick(this)" class="w3-hover-opacity" alt="A 3D Vision and Machine Learning Integrated Robotic Solution to Medication Non-Adherence for the Elderly">
     </div>
-    <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
+    <div class="w3-col m2">
+      <img src="images/android.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="gpsTXT: A Location-based Automated Messenger Application">
+    </div>
+    <!-- <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button> -->
   </div>
 </div>
 
@@ -228,7 +342,7 @@ img {
 </div>
 
 <!-- Third Parallax Image with Portfolio Text -->
-<div class="bgimg-3 w3-display-container w3-opacity-min">
+<div class="bgimg-3 w3-display-container w3-opacity-off">
   <div class="w3-display-middle">
      <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
   </div>
@@ -271,7 +385,7 @@ img {
 </div>
 
 <!-- Footer -->
-<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+<footer class="w3-center w3-black w3-padding-64 ">
   <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
   <div class="w3-xlarge w3-section">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
