@@ -76,6 +76,7 @@ img {
 .button1 {
   background-color: white;
   color: black;
+  width: 100%
   /* border: 2px solid #4CAF50; */
 }
 
@@ -141,17 +142,17 @@ img {
   </h3>
     </font>
   <p>
-    <font size="5" face="Gill Sans" color="black">
-      I am a sophomore studying Computer Science at Barrett, The Honors College, at Arizona State University.
-      I am passionate about addressing cross-disciplinary local, national and international issues through computing.
+    <font size="5" face="Palatino" color="black">
+      My name is Anay Gupta and I am a second-year student at Barrett, The Honors College, at Arizona State University. I am currently pursuing a Bachelor's Degree in Computer Science.
+      I am passionate about addressing cross-disciplinary issues through Software Engineering, Data Mining, and Machine Learning.
    </font>
   </p>
 
-  <h3 class="w3-center">
-    <font size="5" face="Gill Sans" color="black">
+  <!-- <h3 class="w3-center">
+    <font size="5" face="Palatino" color="black">
       <br/>
       Click on any of the following buttons to learn more about me!
-  </h3>
+  </h3> -->
 
   <div class="w3-row w3-center w3-padding-16">
     <!--
@@ -166,10 +167,14 @@ img {
       <!--<p>I am a soft-computing oriented student looking to enhance skills including machine learning, data mining, and computer vision towards momentous real-world applications.</p>-->
     <!-- </div> -->
   <!-- </div> -->
-  <p <button class="button button1 w3-round-large w3-xlarge w3-quarter w3-section">Proficient Languages</button></p>
-  <p <button class="button button1 w3-round-large w3-xlarge w3-quarter w3-section">ML Concepts</button></p>
+
+  <!-- <a <p button class="button button1 w3-round-large w3-xlarge w3-center" href="www.facebook.com">RESUME</a></p> -->
+
+  <!-- <p <button class="button button1 w3-round-large w3-xlarge w3-center" href="https://www.slideshare.net/slideshow/embed_code/key/4DtFxQeL8he0hQf">RESUME</button></p> -->
+  <!-- <p <button class="button button1 w3-round-large w3-xlarge w3-quarter w3-section">ML Concepts</button></p>
   <p <button class="button button1 w3-round-large w3-xlarge w3-quarter w3-section">Technologies</button></p>
-  <p <button class="button button1 w3-round-large w3-xlarge w3-quarter w3-section">Hardware</button></p>
+  <p <button class="button button1 w3-round-large w3-xlarge w3-quarter w3-section">Hardware</button></p> -->
+
 
   <!-- <p class="w3-wide"><i class="fa fa-laptop"></i>Java</p> -->
 
@@ -249,58 +254,58 @@ img {
 
 <!-- Container (Portfolio Section) -->
 <div class="w3-content w3-container w3-padding-64" id="projects">
-  <h3 class="w3-center">Here are some of my latest projects</h3>
+  <h3 class="w3-center">Here are some of the latest projects I have worked on</h3>
   <p class="w3-center"><em>Click on the seals for more information</em></p><br>
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <div class="w3-row">
-    <div class="w3-col s2 m2 l2">
-      <img src="images/dt.png" style="width:100%" onclick="document.getElementById('id01').style.display='block'" class="w3-hover-opacity">
+    <div class="w3-container w3-quarter">
+      <img src="images/achieve60.jpg" style="width:100%" onclick="document.getElementById('id01').style.display='block'" class="w3-hover-opacity">
 
       <div id="id01" class="w3-modal">
         <div class="w3-modal-content w3-animate-top w3-card-4">
-          <header class="w3-container w3-black">
+          <header class="w3-container w3-red">
             <span onclick="document.getElementById('id01').style.display='none'"
             class="w3-button w3-display-topright">&times;</span>
             <h2>Achieve 60</h2>
           </header>
           <div class="w3-container">
             <p>Developing a 7-screen dashboard model to enable Arizona Board of Regents to raise the average Arizona educational attainment to 60%.</p>
-            <!-- <p>Some text..</p> -->
+            <p>Initiative Outlined in: http://achieve60az.com/initiatives</p>
           </div>
-          <footer class="w3-container w3-black">
-            <p>ASU Decision Theater Network</p>
+          <footer class="w3-container w3-blue">
+            <p>ROLE: Software Developer at ASU Decision Theater Network</p>
           </footer>
         </div>
       </div>
 
     </div>
 
-    <div class="w3-col m2">
-      <img src="images/dt.png" style="width:100%" onclick="document.getElementById('id02').style.display='block'" class="w3-hover-opacity" >
+    <div class="w3-container w3-quarter">
+      <img src="images/CI.jpg" style="width:100%" onclick="document.getElementById('id02').style.display='block'" class="w3-hover-opacity" >
       <!-- <img src="images/asu.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Darknet and Deepnet Mining for Proactive Cybersecurity Threat Intelligence"> -->
 
       <div id="id02" class="w3-modal">
         <div class="w3-modal-content w3-animate-top w3-card-4">
-          <header class="w3-container w3-black">
+          <header class="w3-container w3-blue">
             <span onclick="document.getElementById('id02').style.display='none'"
             class="w3-button w3-display-topright">&times;</span>
             <h2>Conservation International</h2>
           </header>
           <div class="w3-container">
-            <p>Developing a 7-screen dashboard model to enable Arizona Board of Regents to raise the average Arizona educational attainment to 60%.</p>
+            <p>Developed visualizations to analyze land cover degradation around the world for the Conservation International Environmental Foundation (presented at The McCain Institute in Washington, D.C. October 2018).</p>
             <!-- <p>Some text..</p> -->
           </div>
-          <footer class="w3-container w3-black">
-            <p>ASU Decision Theater Network</p>
+          <footer class="w3-container w3-green">
+            <p>ROLE: Software Developer at ASU Decision Theater Network</p>
           </footer>
         </div>
       </div>
 
     </div>
 
-    <div class="w3-col m2">
-      <img src="images/asu.png" style="width:100%" onclick="document.getElementById('id03').style.display='block'" class="w3-hover-opacity">
+    <div class="w3-container w3-quarter">
+      <img src="images/cysis.png" style="width:100%" onclick="document.getElementById('id03').style.display='block'" class="w3-hover-opacity">
       <!-- alt="Developing Heuristics to Automate the Extraction of Potential Drug-Drug Interaction (PDDI) Evidence from the Tables of Structured Product Labels (SPLs)"> -->
 
       <div id="id03" class="w3-modal">
@@ -311,22 +316,43 @@ img {
             <h2>Darknet and Deepnet Mining for Proactive Cybersecurity <br/>Threat Intelligence</h2>
           </header>
           <div class="w3-container">
-            <p>Developing a 7-screen dashboard model to enable Arizona Board of Regents to raise the average Arizona educational attainment to 60%.</p>
-            <!-- <p>Some text..</p> -->
+            <p>Mined proactive cyber-threat intelligence -- specifically, details of malicious software designed to exploit security flaws in financial institutions (e.g. JPMorgan Chase, Bank of America, PayPal, etc) -- from marketplaces, forums, and repositories on the dark web in an effort to prevent and/or minimize the damage of cyber attacks. Used Python, HTML, and PostgreSQL.</p>
+            <p>Funded by the Department of Defense (Army Research Laboratory).</p>
           </div>
           <footer class="w3-container w3-black">
-            <p>ASU Decision Theater Network</p>
+            <p>ROLE: Machine Learning Intern at CySIS (Cyber-Socio Intelligent Systems) Laboratoryv -- Now CYR3CON</p>
           </footer>
         </div>
       </div>
+    </div>
 
+    <div class="w3-container w3-quarter">
+      <img src="images/pitt.png" style="width:100%" onclick="document.getElementById('id04').style.display='block'" class="w3-hover-opacity">
+      <!-- alt="Developing Heuristics to Automate the Extraction of Potential Drug-Drug Interaction (PDDI) Evidence from the Tables of Structured Product Labels (SPLs)"> -->
+
+      <div id="id04" class="w3-modal">
+        <div class="w3-modal-content w3-animate-top w3-card-4">
+          <header class="w3-container w3-indigo">
+            <span onclick="document.getElementById('id04').style.display='none'"
+            class="w3-button w3-display-topright">&times;</span>
+            <h2>Developing Heuristics to Automate the Extraction of Potential Drug-Drug Interaction (PDDI) Evidence from the Tables of Structured Product Labels (SPLs)</h2>
+          </header>
+          <div class="w3-container">
+            <p>Applied software and computational techniques to a pervasive problem in the field of pharmacogenomics. Intensely collaborated with a faculty mentor at the Department of Biomedical Informatics on developing heuristics to automate the extraction of potential drug-drug interaction evidence from the tables of structured product labels.</p>
+            <p>Used Python, R, and mySQL.</p>
+          </div>
+          <footer class="w3-container w3-brown">
+            <p>ROLE: University of Pittsburgh Cancer Institute Intern at the Department of Biomedical Informatics (DBMI)</p>
+          </footer>
+        </div>
+      </div>
     </div>
-    <div class="w3-col m2">
-      <img src="images/kinect.png" style="width:95%" onclick="onClick(this)" class="w3-hover-opacity" alt="A 3D Vision and Machine Learning Integrated Robotic Solution to Medication Non-Adherence for the Elderly">
-    </div>
-    <div class="w3-col m2">
+    <!-- <div class="w3-col s4 m2 l2">
+      <img src="images/kinect.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A 3D Vision and Machine Learning Integrated Robotic Solution to Medication Non-Adherence for the Elderly">
+    </div> -->
+    <!-- <div class="w3-col m2">
       <img src="images/android.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="gpsTXT: A Location-based Automated Messenger Application">
-    </div>
+    </div> -->
     <!-- <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button> -->
   </div>
 </div>
@@ -349,23 +375,35 @@ img {
 </div>
 
 <!-- Container (Contact Section) -->
-<div class="w3-content w3-container w3-padding-64" id="contact">
+<div class="w3-content w3-container w3-padding-64 w3-center" id="contact">
+  <p class="w3-center">
+    <font size="4" face="Palatino" color="black">
+      Feel free to reach out to me! Let's Connect!</p>
+    </font>
+  <div class="w3-xlarge w3-section">
+    <!-- <i class="fa fa-facebook-official w3-hover-opacity"></i> -->
+    <!-- <i class="fa fa-instagram w3-hover-opacity"></i> -->
+    <!-- <i class="fa fa-snapchat w3-hover-opacity"></i> -->
+    <a class="fa fa-envelope w3-hover-opacity" href="mailto:anaygupta.us@gmail.com"></a>
+    <a href="https://www.linkedin.com/in/anaygupta" class="fa fa-linkedin w3-hover-opacity"></a>
+    <a href="https://twitter.com/anayygupta" class="fa fa-twitter w3-hover-opacity"></a>
+  </div>
   <!--<h3 class="w3-center"></h3>-->
   <!--<p class="w3-center"><em>Feel free to reach out</em></p>-->
 
-  <div class="w3-row w3-padding-32 w3-section">
-    <div class="w3-col m4 w3-container">
+  <!-- <div class="w3-row w3-padding-32 w3-section"> -->
+    <!-- <div class="w3-col m4 w3-container"> -->
       <!-- Add Google Maps -->
-      <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;"></div>
-    </div>
+      <!-- <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;"></div> -->
+    <!-- </div>
     <div class="w3-col m8 w3-panel">
       <div class="w3-large w3-margin-bottom">
         <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Tempe, AZ<br>
         <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: <br>
         <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: anaygupta.us@gmail.com<br>
-      </div>
+      </div> -->
       <!--<p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>-->
-      <p>Leave me a note!</p>
+      <!-- <p>Leave me a note!</p>
       <form action="/action_page.php" target="_blank">
         <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
           <div class="w3-half">
@@ -381,21 +419,13 @@ img {
         </button>
       </form>
     </div>
-  </div>
+  </div> -->
 </div>
 
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-64 ">
   <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-  <div class="w3-xlarge w3-section">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
-  </div>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <!-- <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p> -->
 </footer>
 
 <!-- Add Google Maps -->
