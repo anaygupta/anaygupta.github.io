@@ -1,5 +1,205 @@
-.name {
-  text-align: center;
-  margin-top: 100px;
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+@import url(http://fonts.googleapis.com/css?family=Nunito);
+@import url(http://fonts.googleapis.com/css?family=Archivo);
 
+
+.top
+{
+  text-align: center;
+  background-image: url("images/lake.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* background: url("images/lake.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
+}
+
+/* .bg img { */
+  /* The image used */
+  /* background-image: url("images/lake.jpg"); */
+
+  /* Full height */
+  /* height: 100%; */
+
+  /* Center and scale the image nicely */
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+.name
+{
+  margin-top: 40px;
+  font-family: Montserrat;
+  font-size: 50px;
+  color: white;
+}
+
+.image1 img
+{
+	height:40%;
+	width:40%;
+}
+
+.header
+{
+  font-family: Montserrat;
+  font-size: 30px;
+  color: white;
+}
+
+.description_content
+{
+  font-family: Montserrat;
+  font-size: 30px;
+  color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+div.anythingSlider{
+
+}
+
+.project_header
+{
+  ont-family: Montserrat;
+  font-size: 30px;
+  color: black;
+}
+.projects
+{
+  position: relative;
+  top: 200%;
+  transform: translateY(-50%);
+  font-family: Montserrat;
+  font-size: 25px;
+  color: black;
+}
+
+table.project_table
+{
+  border-collapse: separate;
+  border-spacing: 25px 0;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  /* border: 1px solid black; */
+
+}
+
+ th, td, tr
+ {
+   padding: 20px 0;
+ }
+
+ .project_entry
+ {
+   font-size: 20px;
+ }
+
+img.achieve60{
+  height:6%;
+	width:25%;
+}
+
+.socialHomeGroup
+{
+  text-align: left;
+  margin-top: 150px;
+  margin-left: 20px;
+  font-size: 200%;
+  color:white;
+}
+
+.fa
+{
+  /* padding: 20px; */
+  /* font-size: 100px; */
+  /* width: 50px; */
+  /* text-align: left; */
+  text-decoration: none;
+  /* color:white; */
+  /* margin: 5px 2px; */
+}
+
+.fa:hover
+{
+    opacity: 0.7;
+}
+
+.future_projects
+{
+  padding-top: 50px;
+}
+
+.futureprojects_header
+{
+  font-family: Montserrat;
+  font-size: 30px;
+  color: black;
+}
+
+.futureprojects_list
+{
+  text-align: center;
+  list-style-position: inside;
+}
+
+
+.resume
+{
+  color:black;
+  padding-top: 100px;
+}
+.resume_header
+{
+  font-family: Montserrat;
+  font-size: 30px;
+  color: black;
+}
+
+.resume_download
+{
+  position: relative;
+  font-size: 100%;
+
+  /* padding-right: 20px; */ */
+
+}
+
+
+.contact_header
+{
+  font-family: Montserrat;
+  font-size: 30px;
+  color: white;
+}
+.CONTACT
+{
+  margin-top: 100px;
+  /* margin-bottom: 200px; */
+  color:black;
+  display: inline-block;
+
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  /* height: 50px; */
+  /* margin-top: -50px; */
+}
+
+.socialHomeGroup2
+{
+  margin-bottom: 25px;
+  font-size: 150%
 }
