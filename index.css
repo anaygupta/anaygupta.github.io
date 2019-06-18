@@ -62,13 +62,44 @@
   margin-left: 5%;
   margin-right: 5%;
 }
-div.anythingSlider{
+
+.readmore
+{
+  padding-top: 10em;
+  position: relative;
+  bottom: 0;
+}
+
+button
+{
+  /* opacity: 0; */
+  width: 100%;
+  background: rgba(0, 0, 0, 0);
+  color: white;
+  border:none;
+  border-radius: 10px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  font-size: 50px;
+  font-family: Montserrat;
 
 }
 
+/* .arrow
+{
+  box-sizing: border-box;
+  height: 5vw;
+  width: 5vw;
+  border-style: solid;
+  border-color: black;
+  border-width: 0px 1px 1px 0px;
+  transform: rotate(45deg);
+  transition: border-width 150ms ease-in-out;
+} */
+
+
 .project_header
 {
-  ont-family: Montserrat;
+  font-family: Montserrat;
   font-size: 30px;
   color: black;
 }
@@ -130,7 +161,7 @@ img.achieve60{
 
 .fa:hover
 {
-    opacity: 0.7;
+    opacity: 0.25;
 }
 
 .future_projects
