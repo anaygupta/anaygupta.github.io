@@ -1,7 +1,7 @@
-/* @import url(http://fonts.googleapis.com/css?family=Montserrat);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
 @import url(http://fonts.googleapis.com/css?family=Ubuntu);
 @import url(http://fonts.googleapis.com/css?family=Nunito);
-@import url(http://fonts.googleapis.com/css?family=Archivo); */
+@import url(http://fonts.googleapis.com/css?family=Archivo);
 
 
 .top
@@ -35,7 +35,8 @@
 
 .name
 {
-  margin-top: 40px;
+
+  margin-top: 10%;
   font-family: Montserrat;
   font-size: 50px;
   color: white;
@@ -56,18 +57,25 @@
 
 .description_content
 {
+  /* margin-top: 5%; */
+  margin-left: 5%;
+  margin-right: 5%;
   font-family: Montserrat;
   font-size: 30px;
   color: white;
-  margin-left: 5%;
-  margin-right: 5%;
+
 }
 
 .readmore
 {
-  padding-top: 10em;
-  position: relative;
-  bottom: 0;
+  /* position: relative;
+  bottom: 0; */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #0e242d; */
+  /* height: 100vh; */
 }
 
 button
@@ -81,21 +89,31 @@ button
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
   font-size: 50px;
   font-family: Montserrat;
-
 }
 
-/* .arrow
+.arrow
 {
+  /* text-align: center; */
   box-sizing: border-box;
   height: 5vw;
   width: 5vw;
   border-style: solid;
-  border-color: black;
-  border-width: 0px 1px 1px 0px;
+  border-color: white;
+  border-width: 0px 3px 3px 0px;
   transform: rotate(45deg);
   transition: border-width 150ms ease-in-out;
-} */
+}
 
+.arrow:hover
+{
+  border-bottom-width: 10px;
+  border-right-width: 10px;
+}
+
+.projects
+{
+  /* padding-top: 0px; */
+}
 
 .project_header
 {
@@ -106,18 +124,58 @@ button
 .projects
 {
   position: relative;
-  top: 200%;
-  transform: translateY(-50%);
+  margin-top: 400px;
+  /* top: 200%; */
+  /* transform: translateY(-50%); */
   font-family: Montserrat;
   font-size: 25px;
   color: black;
 }
 
-table.project_table
+.divide_line
 {
+  border-left: 6px solid black;
+  margin-top: 100px;
+  height: 1000px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+table.experience_table
+{
+  padding-top:50px;
+  position: relative;
+  text-align: left;
   border-collapse: separate;
   border-spacing: 25px 0;
-  width: 100%;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  /* border: 1px solid black; */
+}
+
+table.project_table
+{
+  padding-top:50px;
+  position: relative;
+  text-align: left;
+  border-collapse: separate;
+  border-spacing: 25px 0;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   /* border: 1px solid black; */
@@ -127,16 +185,26 @@ table.project_table
  th, td, tr
  {
    padding: 20px 0;
- }
-
- .project_entry
- {
+   font-family: Nunito;
    font-size: 20px;
+
  }
 
-img.achieve60{
-  height:6%;
-	width:25%;
+.seals
+{
+  margin-top: 100px;
+}
+
+img.seal
+{
+  height:18%;
+	width:18%;
+  padding: 10px;
+}
+
+.seal:hover
+{
+  opacity: .25;
 }
 
 .socialHomeGroup
@@ -166,7 +234,7 @@ img.achieve60{
 
 .future_projects
 {
-  padding-top: 50px;
+  padding-top: 100px;
 }
 
 .futureprojects_header

@@ -57,8 +57,7 @@
     <!-- <h1 class = "header"> ABOUT </h1> -->
     <p class = "description_content">
       Third-year Honors Computer Science student at Arizona State University passionate about addressing cross-disciplinary local,
-      national,
-      and international issues through computing.
+      national,and international issues through computing.
     </p>
   </div>
 
@@ -84,72 +83,167 @@
   </div>
 
   <div class = "readmore">
-    <button type="button">More</button>
-    <!-- <div class = "arrow"></div> -->
+    <a data-scroll href = "#secondpage">
+      <!-- <button type="button">More</button> -->
+      <div class = "arrow"></div>
+    </a>
   </div>
 </div>
 
-  <div class = "projects">
-    <p class = "project_header"> PROJECTS </p>
-    <p class = "project_descriptions">
-      Here are some of the projects I am working on right now!
-    </p>
-    <table class = "project_table">
-      <tr>
-        <th>Company</th>
-        <th>Role</th>
-        <th>Project</th>
-        <!-- <th>Description</th> -->
-        <th>Duration</th>
-      </tr>
+  <div class = "projects" id = "secondpage">
+    <p class = "project_header">EXPERIENCE</p>
+    <!-- <p class = "project_descriptions"></p> -->
+    <div class = "divide_line"></div>
+    <div class="row">
 
-      <!-- Second row in table -->
-      <tr class = "project_entry">
-        <td><strong>Visa Inc.</td>
-        <td>Software Engineering Intern</strong></td>
-        <td>Tech Strategy, Governance, & DR</td>
-        <td>May 2019 - Present</td>
-      </tr>
-      <!-- First row in table -->
-      <tr class = "project_entry">
-        <td><strong>ASU Decision Theater Network</strong></td>
-        <td>Software Developer</td>
-        <td>Achieve 60</td>
-        <!-- <td>
-          Developing a 7-screen dashboard model to enable Arizona Board of Regents to raise the average Arizona educational attainment to 60%.
-          Initiative Outlined in: http://achieve60az.com/initiatives
-        </td> -->
-        <td>Jun 2018 - May 2019</td>
-      </tr>
-      <!-- Second row in table -->
-      <tr class = "project_entry">
-        <td><strong>ASU Decision Theater Network</strong></td>
-        <td>Software Developer</td>
-        <td>Conservation International Land Degradation Tool</td>
-        <td>Aug 2018 - Nov 2018</td>
-      </tr>
-      <!-- Second row in table -->
-      <tr class = "project_entry">
-        <td><strong>Center of Law, Science & Innovation at Sandra Day O'Connor College of Law</strong></td>
-        <td>Undergraduate Research Aide</td>
-        <td>Integrating A.I. in the Practice of Law (legal informatics).</td>
-        <td>Mar 2018 - Present</td>
-      </tr>
-      <!-- Third row in table -->
-      <tr class = "project_entry">
-        <td><strong>CYR3CON (CySIS Laboratory)</strong></td>
-        <td>Machine Learning Intern</td>
-        <td>Darknet and Deepnet Mining for Proactive Cybersecurity Threat Intelligence</td>
-        <td>Aug 2018 - Nov 2018</td>
-      </tr>
-      <!-- Fourth row in table -->
-      <tr class = "project_entry">
-        <td><strong>University of Pittsburgh Cancer Institute (UPCI)</strong></td>
-        <td>Biomedical Informatics Intern</td>
-        <td>Developing Heuristics to Automate the Extraction of Potential Drug-Drug Interaction (PDDI) Evidence from the Tables of Structured Product Labels (SPLs)</td>
-        <td>Jun 2016 - Aug 2018</td>
-      </tr>
-    </table>
+      <!-- left half of web page -->
+      <div class="column">
+        <div class = "experiencetable_header">
+          <strong>I N T E R N S H I P S</strong>
+        </div>
+        <table class = "experience_table">
+          <tr>
+            <th>Company</th>
+            <th>Role</th>
+            <!-- <th>Project</th> -->
+            <!-- <th>Description</th> -->
+            <th>Duration</th>
+          </tr>
+
+          <!-- Second row in table -->
+          <tr class = "project_entry">
+            <td><strong>Visa Inc.</td>
+            <td>Software Engineering Intern</strong></td>
+            <!-- <td>Tech Strategy, Governance, & DR</td> -->
+            <td>May 2019 - Present</td>
+          </tr>
+          <!-- First row in table -->
+          <tr class = "project_entry">
+            <td><strong>ASU Decision Theater Network</strong></td>
+            <td>Software Developer</td>
+            <!-- <td>Achieve 60 & Conservation International</td> -->
+            <td>Apr 2018 - Present</td>
+          </tr>
+          <!-- Second row in table -->
+          <!-- Second row in table -->
+          <tr class = "project_entry">
+            <td><strong>Center of Law, Science & Innovation at Sandra Day O'Connor College of Law</strong></td>
+            <td>Undergraduate Research Aide</td>
+            <!-- <td>Integrating A.I. in the Practice of Law (legal informatics).</td> -->
+            <td>Mar 2018 - Present</td>
+          </tr>
+          <!-- Third row in table -->
+          <tr class = "project_entry">
+            <td><strong>CYR3CON (CySIS Laboratory)</strong></td>
+            <td>Machine Learning Intern</td>
+            <!-- <td>Darknet and Deepnet Mining for Proactive Cybersecurity Threat Intelligence</td> -->
+            <td>Aug 2018 - Nov 2018</td>
+          </tr>
+          <!-- Fourth row in table -->
+          <tr class = "project_entry">
+            <td><strong>University of Pittsburgh Cancer Institute (UPCI)</strong></td>
+            <td>Biomedical Informatics Intern</td>
+            <!-- <td>Developing Heuristics to Automate the Extraction of Potential Drug-Drug Interaction (PDDI) Evidence from the Tables of Structured Product Labels (SPLs)</td> -->
+            <td>Jun 2016 - Aug 2018</td>
+          </tr>
+        </table>
+
+        <div class = "seals">
+          <a href = "https://usa.visa.com">
+            <img class = "seal" src="images/visa.jpg"/>
+          </a>
+
+          <a href = "https://dt.asu.edu">
+            <img class = "seal" src="images/dt.png"/>
+          </a>
+
+          <a href = "https://health.asu.edu/center-law-science-innovation">
+            <img class = "seal" src="images/sandra.jpg"/>
+          </a>
+
+          <a href = "https://www.cyr3con.ai">
+            <img class = "seal" src="images/cysis.png"/>
+          </a>
+
+          <a href = "https://www.dbmi.pitt.edu">
+            <img class = "seal" src="images/pitt.png"/>
+          </a>
+
+        </div>
+
+
+
+
+      </div>
+
+
+
+
+      <!-- right half of web page -->
+      <div class="column">
+        <div class = "projecttable_header">
+          <strong>P R O J E C T S</strong>
+        </div>
+        <table class = "project_table">
+          <tr>
+            <th>Project</th>
+            <th>Company</th>
+            <!-- <th>Role</th> -->
+            <th>Description</th>
+          </tr>
+
+          <!-- Second row in table -->
+          <tr class = "project_entry">
+            <td><strong>Solution Designing + Data Analytics</td>
+            <td>Visa Inc.</strong></td>
+            <!-- <td>Software Engineering Intern</td> -->
+            <td>Tech Strategy, Governance, & DR</td>
+          </tr>
+          <!-- First row in table -->
+          <tr class = "project_entry">
+            <td><strong>Achieve 60</strong></td>
+            <td>ASU Decision Theater Network</td>
+            <!-- <td>Software Developer</td> -->
+            <td>
+              Developing a 7-screen dashboard model to enable Arizona Board of Regents to raise the average Arizona educational attainment to 60%.
+              Initiative Outlined in: http://achieve60az.com/initiatives
+            </td>
+          </tr>
+          <!-- Second row in table -->
+          <tr class = "project_entry">
+            <td><strong>Conservation International Land Degradation Tool</strong></td>
+            <td>ASU Decision Theater Network</td>
+            <!-- <td>Software Developer</td> -->
+            <td>Conservation International Land Degradation Tool</td>
+          </tr>
+          <!-- Second row in table -->
+          <tr class = "project_entry">
+            <td><strong>Center of Law, Science & Innovation at Sandra Day O'Connor College of Law</strong></td>
+            <!-- <td>Undergraduate Research Aide</td> -->
+            <td>Integrating A.I. in the Practice of Law (legal informatics).</td>
+            <td>Mar 2018 - Present</td>
+          </tr>
+          <!-- Third row in table -->
+          <tr class = "project_entry">
+            <td><strong>CYR3CON (CySIS Laboratory)</strong></td>
+            <!-- <td>Machine Learning Intern</td> -->
+            <td>Darknet and Deepnet Mining for Proactive Cybersecurity Threat Intelligence</td>
+            <td>Aug 2018 - Nov 2018</td>
+          </tr>
+          <!-- Fourth row in table -->
+          <tr class = "project_entry">
+            <td><strong>University of Pittsburgh Cancer Institute (UPCI)</strong></td>
+            <!-- <td>Biomedical Informatics Intern</td> -->
+            <td>Developing Heuristics to Automate the Extraction of Potential Drug-Drug Interaction (PDDI) Evidence from the Tables of Structured Product Labels (SPLs)</td>
+            <td>Jun 2016 - Aug 2018</td>
+          </tr>
+        </table>
+      </div>
+
+
+    </div>
+
+
 
     <div class = "future_projects">
       <p class = "futureprojects_header">Future projects I aim to work on in 2019</p>
