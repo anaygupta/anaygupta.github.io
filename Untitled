@@ -1,0 +1,213 @@
+
+.experience
+{
+  /* padding-top: 0px; */
+}
+.experience_header
+{
+  font-family: Montserrat;
+  font-size: 30px;
+  color: black;
+}
+.projects
+{
+  position: relative;
+  margin-top: 400px;
+  /* top: 200%; */
+  /* transform: translateY(-50%); */
+  font-family: Montserrat;
+  font-size: 25px;
+  color: black;
+}
+.divide_line
+{
+  border-left: 6px solid black;
+  margin-top: 100px;
+  height: 1000px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+table.experience_table
+{
+  padding-top:50px;
+  position: relative;
+  text-align: left;
+  border-collapse: separate;
+  border-spacing: 25px 0;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  /* border: 1px solid black; */
+}
+
+table.project_table
+{
+  padding-top:50px;
+  position: relative;
+  text-align: left;
+  border-collapse: separate;
+  border-spacing: 25px 0;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  /* border: 1px solid black; */
+
+}
+
+ th, td, tr
+ {
+   padding: 20px 0;
+   font-family: Nunito;
+   font-size: 20px;
+
+ }
+
+.seals
+{
+  margin-top: 100px;
+}
+
+img.seal
+{
+  height:18%;
+	width:18%;
+  padding: 10px;
+}
+
+.seal:hover
+{
+  opacity: .25;
+}
+/* ------------------------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+.image1 img
+{
+	height:40%;
+	width:40%;
+}
+
+.header
+{
+  font-family: Montserrat;
+  font-size: 30px;
+  color: white;
+}
+
+
+
+button
+{
+  /* opacity: 0; */
+  width: 100%;
+  background: rgba(0, 0, 0, 0);
+  color: white;
+  border:none;
+  border-radius: 10px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  font-size: 50px;
+  font-family: Montserrat;
+}
+
+
+
+
+
+
+
+.future_projects
+{
+  padding-top: 50px;
+  text-align: center;
+}
+
+.futureprojects_header
+{
+  font-family: Montserrat;
+  font-size: 30px;
+  color: black;
+}
+
+.futureprojects_list
+{
+  list-style-position: inside;
+}
+
+
+.resume
+{
+  color:black;
+  padding-top: 50px;
+  text-align: center;
+}
+.resume_header
+{
+  font-family: Montserrat;
+  font-size: 30px;
+  color: black;
+}
+
+.resume_download
+{
+  position: relative;
+  font-size: 100%;
+
+  /* padding-right: 20px; */ */
+
+}
+
+
+.contact_header
+{
+  font-family: Montserrat;
+  font-size: 30px;
+  color: white;
+}
+.CONTACT
+{
+  margin-top: 100px;
+  /* margin-bottom: 200px; */
+  color:black;
+  display: inline-block;
+
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  /* height: 50px; */
+  /* margin-top: -50px; */
+}
+
+.socialHomeGroup2
+{
+  margin-bottom: 25px;
+  font-size: 150%
+}

@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html>
+
+  <!-- tab label -->
   <head>
-    <title>Anay Gupta's Portfolio</title>
+    <title>Anay Gupta</title>
   </head>
 
+  <!-- linking to fonts, CSS, and JS -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <body>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
+  <body>
     <!-- Navbar (sit on top) -->
-    <div class="top">
+    <!-- <div class="top"> -->
       <!-- <img class = "bg" src = "images/lake.jpg" /> -->
-      <div class="w3-bar" id="myNavbar">
+      <!-- <div class="w3-bar" id="myNavbar"> -->
         <!-- <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" -->
             <!-- href="javascript:void(0);" -->
             <!-- onclick="toggleFunction()" -->
@@ -43,75 +48,73 @@
         <!-- <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red"> -->
           <!-- <i class="fa fa-search"></i> -->
         <!-- </a> -->
-      </div>
+      <!-- </div> -->
 
-  <div class = "page1">
-  <div class="name">
+  <div class = "landing_page">
+
+    <!-- name + description -->
+    <div class="name">
       ANAY GUPTA
+    </div>
+
+    <!-- first social home group -->
+    <div class="socialHomeGroup">
+      <div class = "email">
+        <a href="mailto:anaygupta.us@gmail.com" class="fa fa-envelope"></a>
+      </div>
+      <div class="github">
+        <a href="https://github.com/anaygupta" class = "fa fa-github"></a>
+      </div>
+      <div class="linkedin">
+        <a href="https://linkedin.com/in/anaygupta" class = "fa fa-linkedin"></a>
+      </div>
+      <div class="twitter">
+        <a href="https://twitter.com/anayygupta" class = "fa fa-twitter"></a>
+      </div>
+      <div class="facebook">
+        <a href="https://www.facebook.com/ag1044" class = "fa fa-facebook"></a>
+      </div>
+      <div class="instagram">
+        <a href="https://www.instagram.com/anayygupta/" class = "fa fa-instagram"></a>
+      </div>
+    </div>
+
+
+
+    <div class = "description">
+      <p>
+        Addressing cross-disciplinary local, national, and international issues through computing.
+      </p>
+    </div>
+
+
+    <div class="readmore">
+      <a data-scroll href = "#projects_page">
+        <span class = "arrow"></span>
+        <span class = "arrow"></span>
+        <span class = "arrow"></span>
+      </a>
+    </div>
   </div>
 
-  <!-- <div class = "image1">
-    <img src="images/gupta1.jpg"/>
-  </div> -->
-
-  <div class = "description">
-    <!-- <h1 class = "header"> ABOUT </h1> -->
-    <p class = "description_content">
-      Third-year Honors Computer Science student at Arizona State University passionate about addressing cross-disciplinary local,
-      national,and international issues through computing.
-    </p>
-  </div>
-
-  <div class="socialHomeGroup">
-    <div class = "email">
-      <a href="mailto:anaygupta.us@gmail.com" class="fa fa-envelope w3-hover-opacity"></a>
-    </div>
-    <div class="github">
-      <a href="https://github.com/anaygupta" class = "fa fa-github"></a>
-    </div>
-    <div class="linkedin">
-      <a href="https://linkedin.com/in/anaygupta" class = "fa fa-linkedin"></a>
-    </div>
-    <div class="twitter">
-      <a href="https://twitter.com/anayygupta" class = "fa fa-twitter"></a>
-    </div>
-    <div class="facebook">
-      <a href="https://www.facebook.com/ag1044" class = "fa fa-facebook"></a>
-    </div>
-    <div class="instagram">
-      <a href="https://www.instagram.com/anayygupta/" class = "fa fa-instagram"></a>
-    </div>
-  </div>
-
-  <div class = "readmore">
-    <a data-scroll href = "#secondpage">
-      <!-- <button type="button">More</button> -->
-      <div class = "arrow"></div>
-    </a>
-  </div>
-</div>
-
-  <div class = "projects" id = "secondpage">
-    <p class = "project_header">EXPERIENCE</p>
+  <div class = "second_page" id = "projects_page">
+    <p class = "experience_header"><strong>EXPERIENCE</strong></p>
     <!-- <p class = "project_descriptions"></p> -->
-    <div class = "divide_line"></div>
+
     <div class="row">
 
       <!-- left half of web page -->
       <div class="column">
-        <div class = "experiencetable_header">
+        <div class = "internship_header">
           <strong>I N T E R N S H I P S</strong>
         </div>
-        <table class = "experience_table">
+        <table class = "internship_table">
           <tr>
             <th>Company</th>
             <th>Role</th>
-            <!-- <th>Project</th> -->
-            <!-- <th>Description</th> -->
             <th>Duration</th>
           </tr>
-
-          <!-- Second row in table -->
+          <!-- First row in table -->
           <tr class = "project_entry">
             <td><strong>Visa Inc.</td>
             <td>Software Engineering Intern</strong></td>
@@ -120,7 +123,7 @@
           </tr>
           <!-- First row in table -->
           <tr class = "project_entry">
-            <td><strong>ASU Decision Theater Network</strong></td>
+            <td><strong>The Decision Theater Network</strong></td>
             <td>Software Developer</td>
             <!-- <td>Achieve 60 & Conservation International</td> -->
             <td>Apr 2018 - Present</td>
@@ -128,14 +131,14 @@
           <!-- Second row in table -->
           <!-- Second row in table -->
           <tr class = "project_entry">
-            <td><strong>Center of Law, Science & Innovation at Sandra Day O'Connor College of Law</strong></td>
+            <td><strong>Center of Law, Science & Innovation at<br>Sandra Day O'Connor College of Law</strong></td>
             <td>Undergraduate Research Aide</td>
             <!-- <td>Integrating A.I. in the Practice of Law (legal informatics).</td> -->
             <td>Mar 2018 - Present</td>
           </tr>
           <!-- Third row in table -->
           <tr class = "project_entry">
-            <td><strong>CYR3CON (CySIS Laboratory)</strong></td>
+            <td><strong>CYR3CON <br>(CySIS Laboratory)</strong></td>
             <td>Machine Learning Intern</td>
             <!-- <td>Darknet and Deepnet Mining for Proactive Cybersecurity Threat Intelligence</td> -->
             <td>Aug 2018 - Nov 2018</td>
@@ -153,107 +156,196 @@
           <a href = "https://usa.visa.com">
             <img class = "seal" src="images/visa.jpg"/>
           </a>
-
           <a href = "https://dt.asu.edu">
             <img class = "seal" src="images/dt.png"/>
           </a>
-
           <a href = "https://health.asu.edu/center-law-science-innovation">
             <img class = "seal" src="images/sandra.jpg"/>
           </a>
-
           <a href = "https://www.cyr3con.ai">
             <img class = "seal" src="images/cysis.png"/>
           </a>
-
           <a href = "https://www.dbmi.pitt.edu">
             <img class = "seal" src="images/pitt.png"/>
           </a>
-
         </div>
 
+    </div>
 
-
-
+    <!-- right half of web page -->
+    <div class="column">
+      <div class = "project_header">
+        <strong>P R O J E C T S</strong>
       </div>
+      <table class = "project_table">
+        <tr>
+          <th><strong>Project</strong></th>
+          <th>Company</th>
+          <th>Description</th>
+        </tr>
 
-
-
-
-      <!-- right half of web page -->
-      <div class="column">
-        <div class = "projecttable_header">
-          <strong>P R O J E C T S</strong>
-        </div>
-        <table class = "project_table">
-          <tr>
-            <th>Project</th>
-            <th>Company</th>
-            <!-- <th>Role</th> -->
-            <th>Description</th>
-          </tr>
-
-          <!-- Second row in table -->
-          <tr class = "project_entry">
-            <td><strong>Solution Designing + Data Analytics</td>
-            <td>Visa Inc.</strong></td>
+        <!-- First row in table -->
+        <tr class = "project_entry">
+          <td>Solution Design <br>+ Data Analytics</td>
+            <td>Visa Inc.</td>
             <!-- <td>Software Engineering Intern</td> -->
             <td>Tech Strategy, Governance, & DR</td>
           </tr>
-          <!-- First row in table -->
+          <!-- Second row in table -->
           <tr class = "project_entry">
             <td><strong>Achieve 60</strong></td>
-            <td>ASU Decision Theater Network</td>
+            <td>The Decision Theater Network</td>
             <!-- <td>Software Developer</td> -->
             <td>
-              Developing a 7-screen dashboard model to enable Arizona Board of Regents to raise the average Arizona educational attainment to 60%.
-              Initiative Outlined in: http://achieve60az.com/initiatives
+              <ul>
+                <li>
+                  Developed a multi-screen dashboard model to enable Arizona Board of Regents to raise the average Arizona educational attainment to 60%.
+                </li>
+
+              <!-- <a href= "https://achieve60az.blog">Click here to learn more</a> -->
+                <li>
+                  <i>Used JavaScript, R, and PHP.</i>
+                </li>
+              </ul>
             </td>
           </tr>
           <!-- Second row in table -->
           <tr class = "project_entry">
             <td><strong>Conservation International Land Degradation Tool</strong></td>
-            <td>ASU Decision Theater Network</td>
+            <td>The Decision Theater Network</td>
             <!-- <td>Software Developer</td> -->
-            <td>Conservation International Land Degradation Tool</td>
+            <td>
+              <ul>
+                <li>
+                  Developed visualizations to analyze land cover degradation around the world for the Conservation International Environmental Foundation.
+                </li>
+                <li>
+                  <strong>
+                    Presented land degradation analysis tool at The McCain Institute in Washington, D.C. (October 2018).
+                  </strong>
+                </li>
+                <li>
+                  <i>Used JavaScript, R, and PHP.</i>
+                </li>
+              </ul>
+            </td>
           </tr>
+
           <!-- Second row in table -->
-          <tr class = "project_entry">
-            <td><strong>Center of Law, Science & Innovation at Sandra Day O'Connor College of Law</strong></td>
-            <!-- <td>Undergraduate Research Aide</td> -->
+          <!-- <tr class = "project_entry">
+            <td><strong>A.I. in the Practice of Law</strong></td>
+            <td>CLSI @ Sandra Day O'Connor College of Law</td>
             <td>Integrating A.I. in the Practice of Law (legal informatics).</td>
-            <td>Mar 2018 - Present</td>
-          </tr>
+          </tr> -->
+
           <!-- Third row in table -->
           <tr class = "project_entry">
-            <td><strong>CYR3CON (CySIS Laboratory)</strong></td>
+            <td><strong>Darknet and Deepnet Mining for Proactive Cybersecurity Threat Intelligence</strong></td>
+            <td>CYR3CON</td>
             <!-- <td>Machine Learning Intern</td> -->
-            <td>Darknet and Deepnet Mining for Proactive Cybersecurity Threat Intelligence</td>
-            <td>Aug 2018 - Nov 2018</td>
+            <td>
+              <ul>
+                <li>
+                  Mined proactive cyber-threat intelligence -- details of malicious software designed to exploit security flaws-- from marketplaces, forums, and repositories on the dark web in an effort to prevent and/or minimize the damage of cyber attacks.
+                  <!-- (funded by Department of Defense through CySIS). -->
+                </li>
+                <li>
+                  <i>Used Python, HTML, and PostgreSQL</i>
+                </li>
+              </ul>
+            </td>
           </tr>
+
           <!-- Fourth row in table -->
           <tr class = "project_entry">
-            <td><strong>University of Pittsburgh Cancer Institute (UPCI)</strong></td>
+            <td>Developing Heuristics to Automate the Extraction of PPDDI Evidence from the Tables of SPLs</td>
+            <td><strong>University of Pittsburgh Cancer Institute</strong></td>
             <!-- <td>Biomedical Informatics Intern</td> -->
-            <td>Developing Heuristics to Automate the Extraction of Potential Drug-Drug Interaction (PDDI) Evidence from the Tables of Structured Product Labels (SPLs)</td>
-            <td>Jun 2016 - Aug 2018</td>
+            <td>
+              <ul>
+                <li>
+                  Developed heuristics to automate the extraction of potential drug- drug interaction evidence from the tables of structured product labels.
+                </li>
+                <li>
+                  <strong>
+                    Presented University of Pittsburgh Cancer Institute research at the American Medical Informatics Association (AMIA) 2016 Annual Symposium in Chicago.
+                  </strong>
+                </li>
+                <!-- <li>
+                  <i>Used Python, R, and mySQL.</i>
+                </li> -->
+              </ul>
+
+            </td>
           </tr>
         </table>
       </div>
 
-
+      <div class = "divide_line"></div>
     </div>
+  </div>
 
 
 
-    <div class = "future_projects">
-      <p class = "futureprojects_header">Future projects I aim to work on in 2019</p>
-      <ul class = "futureprojects_list">
-        <li>Real-Time NBA Game Updater</li>
-        <li>Dominoes Pizza Auto-Order Tool</li>
-        <li>Auto-Filter Inbox Tool</li>
-        <li>Real-Time Duo YouTube Watcher</li>
-      </ul>
+  <div class = "third_page">
+    <!-- <div class = "divide_line2"></div> -->
+
+    <div class="row">
+
+      <!-- left side -->
+      <div class="column">
+        <!-- <div class = "resume"> -->
+          <!-- <div class = "resume_preview">
+            <embed src="files/Anay Gupta's Resume.pdf" type="application/pdf" width="900" height="1275" />
+          </div> -->
+          <div class = "resume">
+            <a href="files/Anay Gupta's Resume.pdf" class = "fa fa-file-pdf-o">
+              <br><br>Click to View my Résumé
+            </a>
+          </div>
+        </div>
+
+        <!-- right side -->
+        <div class="column">
+          <div class = "future_projects">
+            <p class = "futureprojects_header">Future projects I aim to work on in 2019</p>
+            <ul class = "futureprojects_list">
+              <li>Real-Time NBA Game Updater</li>
+              <li>Dominoes Pizza Auto-Order Tool</li>
+              <li>Auto-Filter Inbox Tool</li>
+              <li>Real-Time Duo YouTube Watcher</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- left half of web page -->
+
+      <div class = "CONTACT">
+        <p class = "contact_header">STAY IN TOUCH</p>
+        <div class="socialHomeGroup2">
+          <div class = "email">
+            <a href="mailto:anaygupta.us@gmail.com" class="fa fa-envelope w3-hover-opacity"></a>
+          </div>
+          <div class="github">
+            <a href="https://github.com/anaygupta" class = "fa fa-github"></a>
+          </div>
+          <div class="linkedin">
+            <a href="https://linkedin.com/in/anaygupta" class = "fa fa-linkedin"></a>
+          </div>
+          <div class="twitter">
+            <a href="https://twitter.com/anayygupta" class = "fa fa-twitter"></a>
+          </div>
+          <div class="facebook">
+            <a href="https://www.facebook.com/ag1044" class = "fa fa-facebook"></a>
+          </div>
+          <div class="instagram">
+            <a href="https://www.instagram.com/anayygupta/" class = "fa fa-instagram"></a>
+          </div>
+        </div>
+      </div>
+
     </div>
 
 
@@ -262,41 +354,13 @@
     </div> -->
 
 
-    <div class = "resume">
-      <p class = "resume_header">Here is my resume for reference</p>
-      <div class = "resume_preview">
-        <embed src="files/Anay Gupta's Resume.pdf" type="application/pdf" width="900" height="1275" />
-      </div>
-      <div class = "resume_download">
-        <a href="files/Anay Gupta's Resume.pdf" class = "fa fa-file-pdf-o">
-          Anay Gupta's Resume (click to download)
-        </a>
-      </div>
-    </div>
 
-    <div class = "CONTACT">
-      <p class = "contact_header">STAY IN TOUCH</p>
-      <div class="socialHomeGroup2">
-        <div class = "email">
-          <a href="mailto:anaygupta.us@gmail.com" class="fa fa-envelope w3-hover-opacity"></a>
-        </div>
-        <div class="github">
-          <a href="https://github.com/anaygupta" class = "fa fa-github"></a>
-        </div>
-        <div class="linkedin">
-          <a href="https://linkedin.com/in/anaygupta" class = "fa fa-linkedin"></a>
-        </div>
-        <div class="twitter">
-          <a href="https://twitter.com/anayygupta" class = "fa fa-twitter"></a>
-        </div>
-        <div class="facebook">
-          <a href="https://www.facebook.com/ag1044" class = "fa fa-facebook"></a>
-        </div>
-        <div class="instagram">
-          <a href="https://www.instagram.com/anayygupta/" class = "fa fa-instagram"></a>
-        </div>
-      </div>
-    </div>
+
+
+
+
+
+
     <!-- <ul class = "projects_list">
       <li>
         <img class = "achieve60" src="images/asu.png"/>
@@ -305,11 +369,9 @@
         <img class = "achieve60" src="images/dt.png"/>
       </li>
     </ul> -->
-  </div>
 
-</div>
 
 </body>
-<script src="index.css"></script>
+
 
 </html>
